@@ -17,7 +17,8 @@
     "lint": "npm run lintOnly",
     "lintOnly": "eslint --config ./eslint.config.js",
     "postlintOnly": "echo 'lint is done'",
-    "test": "vitest"
+    "test": "vitest",
+    "prepare:test": "node prepare-test-task.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.5",
